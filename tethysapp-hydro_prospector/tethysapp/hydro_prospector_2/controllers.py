@@ -234,7 +234,7 @@ def calculate_capacity(request):
                                  row_ids=[range(0, len(sorted_cap_list))])
 
         line_plot_view = LinePlot(height='100%', width='100%', engine='highcharts',
-                                  title='Flow capacity Curve', subtitle='User-selected location',
+                                  title='Flow Capacity Curve', subtitle='User-selected location',
                                   spline=True, x_axis_title='Q', x_axis_units='M^2/S',
                                   y_axis_title='Capacity', y_axis_units='kW', series=[{'name': 'Capacity',
                                                                                        'color': '#277554',

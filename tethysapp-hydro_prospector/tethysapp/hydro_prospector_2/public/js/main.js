@@ -23,7 +23,6 @@ var app;
 require(["dojo/dom",
         "dojo/_base/array",
         "esri/Color",
-
         "esri/map",
         "esri/toolbars/draw",
         "esri/layers/FeatureLayer",
